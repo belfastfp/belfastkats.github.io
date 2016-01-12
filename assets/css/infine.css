@@ -5191,7 +5191,7 @@ th.visible-print, td.visible-print {
 	background-color: transparent
 }
 .navigation .navbar .navbar-inner .nav li a:hover {
-	border-right: 3px solid rgba(255,126,91,0.5);
+	border-right: 3px solid #88a8b4;
 	background-color: transparent;
 	color: rgba(0,0,0,0.9)
 }
