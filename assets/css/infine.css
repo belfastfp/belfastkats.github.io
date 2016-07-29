@@ -5077,6 +5077,11 @@ th.visible-print, td.visible-print {
 .navigation .navbar {
 	position: fixed
 }
+
+.navigation .kats-logo {
+	height: 1px;
+}
+
 .navigation .navbar .navbar-inner {
 	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
 	box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
