@@ -5877,6 +5877,15 @@ border:8px solid rgba(0,0,0,0.5)
 	right: 15px
 }
 }
+.speakers-wrapper .talk-legend {
+	color: #ff7e5b;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
 .speakers-wrapper {
 	background-color: #292c33;
 	padding-bottom: 40px;
