@@ -113,7 +113,7 @@ $(document).ready(function() {
             mapTypeIds: ['Styled']
         },
         center: new google.maps.LatLng(54.603576, -5.927396),
-        zoom: 16,
+        zoom: 17,
         disableDefaultUI: true,
         mapTypeId: 'Styled'
     };
@@ -182,9 +182,4 @@ $(document).ready(function() {
         });
     }
 });
-
-
-
-
-
 
