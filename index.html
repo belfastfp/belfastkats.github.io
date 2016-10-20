@@ -6,23 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aviators - byaviators.com">
 
-    <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="assets/js/rs-plugin/css/fullwidth.css" type="text/css">
+    <link rel="stylesheet" href="assets-2017/js/rs-plugin/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="assets-2017/js/rs-plugin/css/fullwidth.css" type="text/css">
     <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/railway-sans" rel="stylesheet" type="text/css"/>
-
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-    <link href="assets/icons/pictopro-normal/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/icons/pictopro-outline/style.css" rel="stylesheet" type="text/css">
+    <link href="assets-2017/icons/pictopro-normal/style.css" rel="stylesheet" type="text/css">
+    <link href="assets-2017/icons/pictopro-outline/style.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/infine.css" type="text/css">
-    <script src="https://js.tito.io/v1" async></script>
+    <link rel="stylesheet" href="assets-2017/fancybox/jquery.fancybox.css" type="text/css">
+    <link rel="stylesheet" href="assets-2017/css/infine.css" type="text/css">
+
     <!--[if lt IE 9]>
-       	<link rel="stylesheet" id="ie8-css"  href="assets/css/ie8.css" type="text/css" media="all">
+       	<link rel="stylesheet" id="ie8-css"  href="assets-2017/css/ie8.css" type="text/css" media="all">
 	<![endif]-->
 
-	<title>Kats Conf 16 - Belfast</title>
+	<title>Kats Conf 2</title>
 </head>
 
 <body data-spy="scroll" data-target="#main-navbar">
@@ -40,17 +38,20 @@
                 </button>
 
                 <div class="logo" style="float:left;">
-                    <a href="#nav-header" class="roll"><span class="kats-logo logo-icon"><img src="assets/pictures/kat-logo.png"></span><span class="logo-text">Kats Conf Belfast</span></a>
+                    <img src="assets-2017/pictures/functional-kats-2-logo.png">
                 </div><!-- /.logo -->
 
                 <div class="navbar-collapse collapse" id="main-navbar">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#nav-header">Home</a></li>
+                        <li><a href="#nav-sponsor">Sponsor</a></li>
                         <li><a href="#nav-speakers">Speakers</a></li>
-                        <li><a href="#nav-pricing">Tickets</a></li>
-                        <li><a href="#nav-sponsors">Sponsors</a></li>
-                        <li><a href="#nav-code">Code of Conduct</a></li>
-                        <li><a href="#nav-contact">Contact</a></li>
+                        <!-- <li><a href="#nav-program">Program</a></li> -->
+                        <li><a href="#nav-team">Team</a></li>
+                        <!-- <li><a href="#nav-sponsors">Sponsors</a></li> -->
+                        <li><a href="#nav-conduct">Code of conduct</a></li>
+                        <li><a href="#nav-contact">Contact Us</a></li>
+                        <!-- <li><a href="#nav-contact">Venue &amp; Contact</a></li> -->
                     </ul>
                 </div><!-- /.main-navigation -->
             </div><!-- /.container -->
@@ -64,31 +65,86 @@
         <div class="fullwidthbanner-container">
            <div class="fullwidthbanner">
                 <ul class="unstyled">
-
                     <li class="first-slide" data-transition="fade">
-                        <img src="assets/pictures/catscatscats.jpg" fullwidthcentering="on">
+                        <img src="assets-2017/pictures/background-conference-1.jpg" data-fullwidthcentering="on">
 
-                        <div class="caption sfr caption-main" data-x="center" data-y="300" data-speed="900" data-start="0" data-easing="easeOutBack">
+                        <div class="caption sfr caption-main" data-x="center" data-y="120" data-speed="900" data-start="0" data-easing="easeOutBack" fullwidthcentering="on">
                             <div class="header-item">
-                                <div class="title">
-                                    <h1>Kats Conf Belfast</h1>
-                                    <h3>Sat 17-Sep-2016: 10am to 5pm</h3>
-                                    <h4>Breakfast served from 9am<br />Post conference drinks from 5pm</h4>
-                                </div>
+                                <div>
+                                  <h1 style="margin-bottom: 0px;">Kats Conf 2</h1>
+                                  <h3 style="margin-top: 0px;">in partnership with Coding Grace</h3>
+                                    <h2 style="margin-top: 0px;">More information Soon!</h2>
+                                    <h3>18th February 2017</h3>
+                                    <h4>From 10:00 am to 9:00 pm</h4>
+                                </div><!-- /.title -->
                             </div><!-- /.header-item -->
-                        </div>
 
-                        <div class="caption fade" data-x="800" data-y="250" data-speed="100" data-start="0" data-easing="fade">
-                            <div class="last-seats"><p>Sold out!</p></div>
-                        </div>
-                    </li>       
+                            <div class="countdown countdown-container container">
+                                <div class="clock row">
+                                    <div class="clock-item clock-days countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-days" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-days type-time">DAYS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-hours countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-hours" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-hours type-time">HOURS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-minutes countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-minutes type-time">MINUTES</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+
+                                    <div class="clock-item clock-seconds countdown-time-value col-sm-3">
+                                        <div class="wrap">
+                                            <div class="inner">
+                                                <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                                <div class="text">
+                                                    <p class="val">0</p>
+                                                    <p class="type-seconds type-time">SECONDS</p>
+                                                </div><!-- /.text -->
+                                            </div><!-- /.inner -->
+                                        </div><!-- /.wrap -->
+                                    </div><!-- /.clock-item -->
+                                </div><!-- /.clock -->
+                            </div><!-- /.countdown-wrapper -->
+
+                        </div><!-- /.caption -->
+                    </li>
+
                 </ul><!-- /.revolution -->
            </div>
         </div>
     </div><!-- /.header -->
 </div><!-- /.header-wrapper -->
 
-<hr>
+
 
 <div id="nav-features" class="features-wrapper">
     <div class="features">
@@ -97,16 +153,16 @@
                 <div class="item orange col-sm-4">
                     <div class="row">
                         <div class="wrapper-icon col-sm-3">
-                            <div class="background-icon">
-                                <i class="icon icon-outline-pointer"></i>
+							<div class="background-icon">
+								<i class="icon icon-outline-pointer"></i>
                             </div><!-- /.background-icon -->
                         </div><!-- /.wrapper-icon -->
 
                         <div class="text-wrapper col-sm-9 pull-right">
-                            <h3>Kats in Belfast</h3>
+                            <h3>Kats in Dublin</h3>
 
                             <p class="features-description">
-                                Kats Conf is a software developer conference with the goal of bringing likeminded people together to have a great time and learn about functional programming.
+                                Kats Conf 2 is a conference taking place in Dublin who's main goal is for people to have a great time and learn about functional programming.
                             </p>
                         </div><!-- /.text-wrapper -->
                     </div><!-- /.row -->
@@ -115,15 +171,15 @@
                 <div class="item blue col-sm-4">
                     <div class="row">
                         <div class="wrapper-icon col-sm-3 ">
-                            <div class="background-icon">
-                                <i class="icon icon-outline-microphone-stand"></i>
+							<div class="background-icon">
+								<i class="icon icon-outline-microphone-stand"></i>
                             </div><!-- /.background-icon -->
                         </div><!-- /.wrapper-icon -->
 
                         <div class="text-wrapper col-sm-9">
                             <h3>Single Track</h3>
                             <p class="features-description">
-                                With hand picked expert speakers sharing their passion for functional programming a single quality track ensures you won't miss a thing.
+                              No <a href="http://www.urbandictionary.com/define.php?term=fomo"><abbr title="Fear of Missing Out">FOMO</abbr></a> with international and local expert speakers sharing their passion for programming.
                             </p>
                         </div><!-- /.text-wrapper -->
                     </div><!-- /.row -->
@@ -132,16 +188,16 @@
                 <div class="item yellow col-sm-4">
                     <div class="row">
                         <div class="wrapper-icon col-sm-3">
-                            <div class="background-icon">
-                                <i class="icon icon-outline-group-three"></i>
-                            </div><!-- /.background-icon -->
+							<div class="background-icon">
+								<i class="icon icon-outline-group-three"></i>
+							</div><!-- /.background-icon -->
                         </div><!-- /.wrapper-icon -->
 
                         <div class="text-wrapper col-sm-9">
-                            <h3>Community focus</h3>
+                            <h3>Hands on Workshops</h3>
 
                             <p class="features-description">
-                                Brought to you by the <a href="http://www.meetup.com/Functional-Kats-Belfast">Functional Kats Belfast</a> group, Kats Conf is about bringing a great and insightful learning experience to the software engineering community of Belfast, Northern Ireland.
+                                They say the best form of learning is doing, and that's just what you'll do with a selection of top quality workshops on offer.
                             </p>
                         </div><!-- /.text-wrapper -->
                     </div><!-- /.row -->
@@ -151,50 +207,61 @@
     </div><!-- /.features -->
 </div><!-- /.features-wrapper -->
 
+<div id="nav-sponsor" class="our-partners-wrapper">
+  <div class="our-partners container">
+    <h2 class="page-header">Become a sponsor</h2>
+    <div class="row">
+      <p>
+        Kats Conf, is a software developer conference with the goal of bringing likeminded people together to have a great time and learn about functional programming. With hand picked expert speakers sharing their passion for functional programming a single quality track ensures you won't miss a thing.
+      </p>
+
+      <p class="text-center lead"><a href="assets-2017/pictures/kats_Conf_17_sponsor_package-20161014.pdf">Click here to download the sponsorship pdf</a></p>
+    </div>
+  </div>
+</div>
+
 <div id="nav-speakers" class="speakers-wrapper">
     <div class="container">
         <h2>Great speakers with great topics</h2>
-        <h4>Hand selected from the Functional Programming community.</h4>
-        <h4><a href="Kats-Conf-Schedule-2016.pdf">Download the full schedule</a></h4>
+        <h4>Hand selected from the Functional Programming community</h4>
 
         <div class="speakers">
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#tab-1" data-toggle="tab">Speakers</a></li>
+                <!-- <li><a href="#tab-2" data-toggle="tab">Track Two</a></li> -->
+                <!-- <li><a href="#tab-3" data-toggle="tab">Workshops</a></li> -->
             </ul>
 
             <div class="tab-content">
 
                 <div class="tab-pane fade active in" id="tab-1">
 
-                    <p class="talk-legend">{<span class="icon-normal-microphone-stand">&nbsp;</span>: Talk, <span class="icon-normal-flash-power"></span>: Lightning talk}</p>
+                  <p class="talk-legend">{<span class="icon-normal-microphone-stand">&nbsp;</span>: Talk, <span class="icon-normal-flash-power"></span>: Lightning talk, <span class=" icon-normal-cog-wheel">&nbsp;</span>: Workshop}</p>
 
                     <div class="row speaker">
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/martin-thompson.jpg" class="img-circle inner-border">
+                                    <img src="assets-2017/pictures/jessica-kerr.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
 
                         <div class="col-sm-7">
-                            <p class="name">Martin Thompson</p>
-                            <p class="company"><a href="https://twitter.com/mjpt777" target="_blank">@mjpt777</a></p>
-                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>CRDTs in the Wild</p>
+                            <p class="name">Jessica Kerr</p>
+                            <p class="company"><a href="https://twitter.com/jessitron" target="_blank">@jessitron</a></p>
+                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>TBA</p>
                             <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">CRDTs are the cool new data structures in distributed computing. We hear of things like "Eventually Consistent" and "Monotonic Function" but what do they really mean? We also hear that functional programming is going to solve the concurrency problem but where is the evidence? What does it mean to put this theory into practice?<br /><br />
-
-In this talk we will explore a CRDT that is core to the implementation of a messaging system which replicates a log of messages across multiple nodes. This data structure is functional in nature yet breaks with tradition and delivers performance that beats all imperative and functional data structures that have come before it.</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>About Martin</h4>
+                                <h4>About Jessica</h4>
 
                                 <p>
-                                    Martin is a consultant, trainer, and coach specializing in designing high-performance and low-latency systems.
+                                  Writes code at Stripe and speaks at software conferences around the world. Soon she will be at GOTO Chicago (May 2016), CodeMesh in London (Nov) and YOW Australia (Dec).
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -204,87 +271,32 @@ In this talk we will explore a CRDT that is core to the implementation of a mess
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/garth.jpg" class="img-circle inner-border">
+                                    <img src="assets-2017/pictures/bodil-stokke.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
 
-                        <div class="col-sm-7">
-                            <p class="name">Garth Gilmour</p>
-                            <p class="company"><a href="https://twitter.com/GarthGilmour" target="_blank">@GarthGilmour</a></p>
-                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>You Put The Lime In The Coconut - 10 best practices for Functional Programming with Java 8</p>
+                        <div class="col-sm-10">
+                            <p class="name">Bodil Stokke</p>
+                            <p class="company"><a href="https://twitter.com/bodil" target="_blank">@bodil</a></p>
+                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>TBA</p>
                             <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">Although Java 8 has been the official standard for some time, most developers are either not using it or using it in name only. Most enterprise organisations are just starting to explore the benefits of mixing the functional programming style with the well established Java platform. This talk offers 10 guidelines for making the best use of Java's new functional features whilst avoiding common traps and anti-patterns.</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
 
-                        <div class="col-sm-3">
-							<div class="about">
-								<h4>About Garth</h4>
-
-								<p>
-                                    Developer, trainer, martial artist, husband and father. Not in that order. Gainfully employed as the Head of Learning at Instil.
-                                </p>
-							</div><!-- /.about -->
-                        </div><!-- /.col-md-3 -->
-                    </div><!-- /.speaker -->
-
-                    <div class="row speaker">
-                        <div class="col-sm-2">
-                            <div class="outer-border item">
-                                <div class="middle-border">
-                                    <img src="assets/pictures/priortd.jpg" class="img-circle inner-border">
-                                </div>
-                            </div>
-                        </div><!-- /.col-md-2 -->
-
-                        <div class="col-sm-7">
-                            <p class="name">Tom Prior</p>
-                            <p class="company"><a href="https://twitter.com/priortd" target="_blank">@priortd</a></p>
-                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>Beginning Haskell: Dive In, Its Not That Scary!</p>
-                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">This talk will be an overview of what I have learnt about Haskell over the past few months. It is aimed at dispelling the myth that Haskell is this hard, academic, scary thing so that the audience will go away encouraged to dive into Haskell themselves and see the beauty of the language. The talk won't go into advanced topics such as Monads, Functors etc., but it will cover basic Functional Programming concepts in terms of the Haskell language to show that the language is actually very accessible.</p>
-                        </div><!-- /.col-md-7 -->
-
-                        <hr>
-
-                        <div class="col-sm-3">
-							<div class="about">
-								<h4>About Tom</h4>
-
-								<p>
-                                    Software geek, relentless learner, loves functional programming.
-                                </p>
-							</div><!-- /.about -->
-                        </div><!-- /.col-md-3 -->
-                    </div><!-- /.speaker -->
-
-                    <div class="row speaker">
-                        <div class="col-sm-2">
-                            <div class="outer-border item">
-                                <div class="middle-border">
-                                    <img src="assets/pictures/hodkinson_tim.jpg" class="img-circle inner-border">
-                                </div>
-                            </div>
-                        </div><!-- /.col-md-2 -->
-
-                        <div class="col-sm-7">
-                            <p class="name">Tim Hodkinson</p>
-                            <p class="company"><a href="https://twitter.com/TimHodkinson" target="_blank">@TimHodkinson</a></p>
-                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>How I learned to love functional programming through Redux</p>
-                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">The concepts of functional programming are becoming mainstream via the Redux style and reactive programming in general. This talk would cover the fundamentals of Redux, why its becoming popular and what the advantages are for enterprises in adopting the pattern, particularly for UI development.</p>
-                        </div><!-- /.col-md-7 -->
-
-                        <hr>
-
-                        <div class="col-sm-3">
+                        <div class="col-sm-12">
                             <div class="about">
-                                <h4>About Tim</h4>
+                                <h4>About Bodil</h4>
 
                                 <p>
-                                    Born in Lisburn in 1971. Since graduating a looooong time ago he's worked in an R&D start-up, outsourcing company and several large Financial organisations, always in software development. Spent several years in the USA with a Fortune 100 company but now returned and currently a Software  Architect for Liberty IT in Belfast.
+                                  Born into an aristocratic Russian-German family, Bodil traveled widely around the Soviet Union as a child. Largely self-educated, she developed an interest in computer science during her teenage years. According to her later claims, in 1989 she embarked on a series of world travels, visiting Europe, the Americas, and India. She alleged that during this period she encountered a group of mathematical adepts, the “Haskell Language and Library Committee,” who sent her to Glasgow, Scotland, where they trained her to develop her powers of category theory. Both contemporary critics and later biographers have argued that some or all of these foreign visits were fictitious, and that she spent this period writing JavaScript.
+                                </p>
+
+                                <br/>
+
+                                <p>
+                                  Bodil was a controversial figure during her lifetime, championed by supporters as an enlightened guru and derided as a fraudulent charlatan by critics. Her doctrines influenced the spread of Homotopy Type Theory in the West as well as the development of Western computer science currents like dependent types, blockchains and isomorphic JavaScript.
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -294,148 +306,27 @@ In this talk we will explore a CRDT that is core to the implementation of a mess
                         <div class="col-sm-2">
                             <div class="outer-border item">
                                 <div class="middle-border">
-                                    <img src="assets/pictures/ptrelford.jpg" class="img-circle inner-border">
+                                    <img src="assets-2017/pictures/lars-hupel.jpg" class="img-circle inner-border">
                                 </div>
                             </div>
                         </div><!-- /.col-md-2 -->
 
                         <div class="col-sm-7">
-                            <p class="name">Phillip Trelford</p>
-                            <p class="company"><a href="https://twitter.com/ptrelford" target="_blank">@ptrelford</a></p>
-                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>Build You Own F# Type Provider For Profit</p>
+                            <p class="name">Lars Hupel</p>
+                            <p class="company"><a href="https://twitter.com/larsr_h" target="_blank">@larsr_h</a></p>
+                            <p class="talk-title"><span class="icon-normal-microphone-stand">&nbsp;</span>Introduction to Functional Programming in Scala with Cats</p>
                             <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">In this session we'll introduce F#'s Type Provider mechanism and some of the more popular ones developed over the last 4 years, before diving deep into how to build your own custom Type Providers, finishing with a type provider to JSON Linked Data as way of an example.</p>
                         </div><!-- /.col-md-7 -->
 
                         <hr>
 
                         <div class="col-sm-3">
                             <div class="about">
-                                <h4>About Phillip</h4>
+                                <h4>About Lars</h4>
 
                                 <p>
-                                    CTO of IDTechEx
-                                </p>
-                            </div><!-- /.about -->
-                        </div><!-- /.col-md-3 -->
-                    </div><!-- /.speaker -->
-
-                    <div class="row speaker">
-                        <div class="col-sm-2">
-                            <div class="outer-border item">
-                                <div class="middle-border">
-                                    <img src="assets/pictures/markxa.jpg" class="img-circle inner-border">
-                                </div>
-                            </div>
-                        </div><!-- /.col-md-2 -->
-
-                        <div class="col-sm-7">
-                            <p class="name">Mark Allen</p>
-                            <p class="company"><a href="https://twitter.com/MarkXA" target="_blank">@MarkXA</a></p>
-                            <p class="talk-title"><span class="icon-normal-flash-power">&nbsp;</span>Slightly Functional</p>
-                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">Not everyone's able to use functional languages at work, but C# has been getting enough inspiration from F# recently for us to not feel completely left out.</p>
-                        </div><!-- /.col-md-7 -->
-
-                        <hr>
-
-                        <div class="col-sm-3">
-							<div class="about">
-								<h4>About Mark</h4>
-
-								<p>
-                                    Programmer, mostly.
-                                </p>
-							</div><!-- /.about -->
-                        </div><!-- /.col-md-3 -->
-                    </div><!-- /.speaker -->
-
-                    <div class="row speaker">
-                        <div class="col-sm-2">
-                            <div class="outer-border item">
-                                <div class="middle-border">
-                                    <img src="assets/pictures/oerhill.jpg" class="img-circle inner-border">
-                                </div>
-                            </div>
-                        </div><!-- /.col-md-2 -->
-
-                        <div class="col-sm-7">
-                            <p class="name">Dale Dunlea</p>
-                            <p class="company"><a href="https://twitter.com/oerhill" target="_blank">@oerhill</a></p>
-                            <p class="talk-title"><span class="icon-normal-flash-power">&nbsp;</span>More functional dictionaries in Swift</p>
-                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">Swift is a functional-OO hybrid language and Swift advocates have been pushing Structs (value types) overs Classes to encourage a more functional style. Dictionaries are often used instead of lightweight classes / structs but the existing dictionary implementation doesn't lend itself to immutability out of the box. But Swift's Extension mechanism can help</p>
-                        </div><!-- /.col-md-7 -->
-
-                        <hr>
-
-                        <div class="col-sm-3">
-							<div class="about">
-								<h4>About Dale</h4>
-
-								<p>
-                                    Dale is a software developer because he got electrocuted too often when he was in hardware. Swift was his gateway drug to FP.
-                                </p>
-							</div><!-- /.about -->
-                        </div><!-- /.col-md-3 -->
-                    </div><!-- /.speaker -->
-
-                    <div class="row speaker">
-                        <div class="col-sm-2">
-                            <div class="outer-border item">
-                                <div class="middle-border">
-                                    <img src="assets/pictures/stephen.jpg" class="img-circle inner-border">
-                                </div>
-                            </div>
-                        </div><!-- /.col-md-2 -->
-
-                        <div class="col-sm-7">
-                            <p class="name">Stephen McCullough</p>
-                            <p class="company"><a href="https://twitter.com/swmcc" target="_blank">@swmcc</a></p>
-                            <p class="talk-title"><span class="icon-normal-flash-power">&nbsp;</span>Python... Ruby... NOW Elixir?? Hipsters Assemble</p>
-                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">How a bad programmer from a python and ruby background found moving to Elixir.</p>
-                        </div><!-- /.col-md-7 -->
-
-                        <hr>
-
-                        <div class="col-sm-3">
-                            <div class="about">
-                                <h4>About Stephen</h4>
-
-                                <p>
-                                    Currently a Senior Software Engineer at Shopkeep.
-                                </p>
-                            </div><!-- /.about -->
-                        </div><!-- /.col-md-3 -->
-                    </div><!-- /.speaker -->
-                </div><!-- /.tab-1 -->
-
-                    <div class="row speaker">
-                        <div class="col-sm-2">
-                            <div class="outer-border item">
-                                <div class="middle-border">
-                                    <img src="assets/pictures/paddy.png" class="img-circle inner-border">
-                                </div>
-                            </div>
-                        </div><!-- /.col-md-2 -->
-
-                        <div class="col-sm-7">
-                            <p class="name">Patrick Carey</p>
-                            <p class="company"><a href="https://twitter.com/paddycarey" target="_blank">@paddycarey</a></p>
-                            <p class="talk-title"><span class="icon-normal-flash-power">&nbsp;</span>Python can be functional too</p>
-                            <p class="time"><!-- <span class="time-start">09:00</span> - 09:45 --></p>
-                            <p class="company">Functional programming is often seen as scary and foreign by developers used to working in languages where functional is not the primary paradigm. This talk shows that you don't have to learn Haskell or F# to take advantage of some of the powerful tools and patterns that the functional programming world has to offer.</p>
-                        </div><!-- /.col-md-7 -->
-
-                        <hr>
-
-                        <div class="col-sm-3">
-                            <div class="about">
-                                <h4>About Patrick</h4>
-
-                                <p>
-                                    Software Engineer at ShopKeep.
+                                  
+                                  Lars is a PhD student in Munich, Germany, working in the area of theorem proving. He has been using Scala for quite a while now, and is known as one of the founders of the typelevel initiative which is dedicated to providing principled, type-driven Scala libraries. He also talks about Haskell and Isabelle a lot. 
                                 </p>
                             </div><!-- /.about -->
                         </div><!-- /.col-md-3 -->
@@ -455,89 +346,95 @@ In this talk we will explore a CRDT that is core to the implementation of a mess
     </div><!-- /.container -->
 </div><!-- /.speakers-wrapper -->
 
-<div id="nav-pricing" class="pricing-wrapper">
-    <div class="pricing">
-        <div class="pricing-inner">
-            <div class="container has-options">
-                <h2>Get your ticket!</h2>
-                <h4>Are you ready for a day packed with Functional goodness? I thought so.</h4>
+<hr>
 
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="tab-1-pricing">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-                                    <div class="circle">
-                                        <div class="content best-offer">
-                                            <p class="price">Free</p>
+<div id="nav-team" class="container gallery">
+    <h2 class="page-header">Meet the team!</h2>
 
-                                            <ul class="span3">
-                                                <li>Admission to Kats Conf Belfast 16
-                                                    <br />Saturday 17th September 2016</li>
-                                            </ul>
+    <ul class="row thumbnails">
+        <li class="col-md-offset-1 col-sm-2">
+            <div class="thumbnail">
+                <a href="https://twitter.com/silverspoon">
+                    <img src="assets-2017/pictures/silverspoon.jpeg" alt="">
+                </a>
+                <h3>Andrea</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
 
-                                            <tito-button class="btn btn-buy" event="kats-conf-16/kats-conf-belfast-16-functional-programming-conference">Waitlist</tito-button>
-                                            <div class="bubble">
-                                                <p>Sold out!</p>
-                                            </div> <!-- /.bubble -->
-                                        </div><!-- /.content -->
-                                    </div><!-- /.circle -->
-                                </div><!-- /.circle-2 -->
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://twitter.com/josmasflores">
+                    <img src="assets-2017/pictures/jos.jpeg" alt="">
+                </a>
+                <h3>Jos</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
 
-                                <!--
-                                <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
-                                    <div class="circle">
-                                        <div class="content">
-                                            <p class="price">£??</p>
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://twitter.com/andreionut">
+                    <img src="assets-2017/pictures/andreionut.jpg" alt="">
+                </a>
+                <h3>Andrei</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
 
-                                            <ul class="span3">
-                                                <li>Full day ticket</li>
-                                                <li>Lunch provided</li>
-                                            </ul>
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://twitter.com/chrismcg">
+                    <img src="assets-2017/pictures/chrismcg.jpg" alt="">
+                </a>
+                <h3>Chris</h3>
+            </div><!-- /.thumbnail -->
+        </li><!-- /.span3 -->
 
-                                            <a class="btn btn-buy">On sale soon</a>
-                                        </div>
-                                    </div> -->
-                                </div><!-- /.span4 -->
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.tab-1 -->
-                </div>
+        <li class="col-sm-2">
+            <div class="thumbnail">
+                <a href="https://twitter.com/oerhill">
+                    <img src="assets-2017/pictures/oerhill.jpg" alt="">
+                </a>
+                <h3>Dale</h3>
             </div>
-        </div><!-- /.pricing-inner -->
-    </div>
-</div><!-- /.pricing-wrapper -->
+        </li>
 
-<div class="parallax-wrapper parallax-first">
-    <div class="parallax">
-        <div class="inner">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <span></span>
-                    </div><!-- /.span12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.inner -->
-    </div><!-- /.parallax -->
-</div><!-- /.parallax-wrapper -->
+    </ul><!-- /.thumbnails -->
+</div><!-- /.container -->
 
-<div id="nav-sponsors" class="our-partners-wrapper">
+<div id="nav-conduct" class="our-partners-wrapper">
     <div class="our-partners container">
         <div class="our-partners-inner">
-            <h2>With great sponsors anything is possible</h2>
-
+            <h2 class="page-header">Code Of Conduct</h2>
+            <h3>Quick Version</h3>
             <div class="row">
-                <div class="col-sm-6 col-xs-6 center">
-                    <a href="http://cmegroup.com/belfast"><img class="our-partners-logo" src="assets/pictures/cme-logo-sponsor.gif" alt=""></a>
-                </div><!-- /.span3 -->
-                <div class="col-sm-6 col-xs-6 center" style="padding-top:45px;">
-                    <a href="http://instil.co/"><img class="our-partners-logo" src="assets/pictures/instil.png" alt=""></a>
-                </div><!-- /.span3 -->
-            </div><!-- /.row -->
+            <p>
+                Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
+            </p>
+            <h3>The less quick version</h3>
+            <p>
+            Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+            </p>
+            <p>
+            Participants asked to stop any harassing behavior are expected to comply immediately.
+            </p>
+            <p>
+                Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.
+            </p>
+            <p>
+            If a participant engages in harassing behaviour, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+            </p>
+            <p>
+            If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded t-shirts.
+            </p>
+            <p>
+            Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+            </p>
+            <p>
+            We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+            </p>
         </div><!-- /.our-partners-inner -->
     </div><!-- /.our-partners -->
 </div><!-- /.our-partners-wrapper -->
+
 
 <div class="parallax-wrapper parallax-third">
 	<div class="parallax">
@@ -545,59 +442,12 @@ In this talk we will explore a CRDT that is core to the implementation of a mess
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<span ></span>
+						<span></span>
 					</div><!-- /.span12 -->
 				</div><!-- /.row-->
 			</div><!-- /.container -->
 		</div><!-- /.inner -->
 	</div><!-- /.parallax -->
-</div><!-- /.parallax-wrapper -->
-
-<div id="nav-code" class="our-partners-wrapper">
-    <div class="our-partners container">
-        <div class="our-partners-inner">
-            <h2>Conference Code of Conduct</h2>
-            <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
-
-            <h3>Need Help?</h3>
-            <p>You have our contact details in the emails we've sent.</p>
-
-            <h3>The Quick Version</h3>
-            <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
-
-            <h3>The Less Quick Version</h3>
-            <p>Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
-
-            <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
-
-            <p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.</p>
-
-            <p>If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
-
-            <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.</p>
-
-            <p>Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
-
-            <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
-
-            <p>(Source: <a href="http://confcodeofconduct.com/">confcodeofconduct.com</a>)</p>
-                
-        </div><!-- /.our-partners-inner -->
-    </div><!-- /.our-partners -->
-</div><!-- /.our-partners-wrapper -->
-
-<div class="parallax-wrapper parallax-third">
-    <div class="parallax">
-        <div class="inner">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <span ></span>
-                    </div><!-- /.span12 -->
-                </div><!-- /.row-->
-            </div><!-- /.container -->
-        </div><!-- /.inner -->
-    </div><!-- /.parallax -->
 </div><!-- /.parallax-wrapper -->
 
 <div id="nav-contact" class="footer-wrapper">
@@ -610,41 +460,25 @@ In this talk we will explore a CRDT that is core to the implementation of a mess
                     <address>
                         <div class="icon icon-normal-pointer"></div>
                         <div class="address-content">
-                            <span class="title"><strong>The Factory @ The MAC</strong></span>
-                            <p>10 Exchange Street West</p>
-							<p>Belfast</p>
-							<p>BT1 2NJ</p>
-                        </div>
-                    </address>
-
-                    <address>
-                        <div class="icon icon-normal-mail"></div>
-                        <div class="address-content">
-                            <a href="mailto:#" class="e-mail">info@katsconf.com</a>
+                            <span class="title"><strong>TBD</strong></span>
                         </div>
                     </address>
 
                     <address>
                         <div class="icon icon-normal-twitter"></div>
                         <div class="address-content">
-                            <a href="https://twitter.com/belfastkats" class="e-mail">@belfastkats</a>
+                            <a href="https://twitter.com/functionalkats" class="e-mail">@functionalkats</a>
                             <a href="https://twitter.com/search?q=katsconf" class="e-mail">#katsconf</a>
                         </div>
                         <br>
-                    </address>
-					<address>
-                        <div class="icon icon-normal-map-pointer"></div>
-                        <div class="address-content">
-                            <a href="https://www.google.co.uk/maps/place/The+MAC/@54.603576,-5.9295847,17z/data=!4m13!1m7!3m6!1s0x48610852d85c3829:0x47967d165ea4a053!2sThe+MAC!3b1!8m2!3d54.603576!4d-5.927396!3m4!1s0x48610852d85c3829:0x47967d165ea4a053!8m2!3d54.603576!4d-5.927396?hl=en" class="btn btn-grey">Show on Google maps</a>
-                        </div>
                     </address>
                 </div><!-- /.item -->
 
                 <div class="item col-md-8">
                     <h2>Any questions? Drop us a note</h2>
 
-                    <form class="contact-form footer-form" method="post" action="https://getsimpleform.com/messages?form_api_token=3ee9757ef969a7ae3d2d394b7be440ae">
-                        <input type='hidden' name='redirect_to' value='http://www.katsconf.com/index.html#nav-contact' />
+                    <form class="contact-form footer-form" method="post" action="https://getsimpleform.com/messages?form_api_token=f484921a100eefc2f3807ee4a5bcd6c3">
+                        <input type='hidden' name='redirect_to' value='#' />
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="control-group">
@@ -685,62 +519,74 @@ In this talk we will explore a CRDT that is core to the implementation of a mess
         </div><!-- /.footer-inner -->
     </div><!-- /.footer -->
 
-	<div id="map"></div><!-- /#map -->
-
+    <!-- <div id="map"></div>
+       -->
     <div class="footer-bottom">
         <div class="container">
             <div class="row footer-bottom-wrapper">
                 <div class="copyright left">
-                    &copy; 2016 Copyright by <a href="http://www.meetup.com/Functional-Kats-Belfast/" class="">Functional Kats Belfast</a>
+                    &copy; 2015-2017 Copyright by Functional Kats
                 </div><!-- /.copyright -->
 
                 <div class="icons right">
-                    <a href=https://twitter.com/belfastkats class="social-icon"><img src="assets/icons/icon-twitter.png" alt=""></a>
+                    <a href="https://twitter.com/functionalkats" class="social-icon"><img src="assets-2017/icons/icon-twitter.png" alt=""></a>
+                    <!-- <a href="#" class="social-icon"><img src="assets-2017/icons/icon-facebook.png" alt=""></a> -->
+                    <!-- <a href="#" class="social-icon"><img src="assets-2017/icons/icon-youtube.png" alt=""></a> -->
                 </div><!-- /.icons -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.footer bottom -->
 </div><!-- /.footer-wrapper -->
 
-<script type="text/javascript" src="assets/js/retina.js"></script>
+
+<script type="text/javascript" src="assets-2017/js/retina.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-<script type="text/javascript" src="assets/js/kinetic.js"></script>
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/placeholder.js"></script>
+<script type="text/javascript" src="assets-2017/js/kinetic.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.js"></script>
+<script type="text/javascript" src="assets-2017/js/placeholder.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.final-countdown.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.cycle2.carousel.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.cycle2.center.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.cycle2.scrollVert.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.cycle2.caption2.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.parallax-1.1.3.js"></script>
 
-<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.cycle2.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.cycle2.center.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.cycle2.scrollVert.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.cycle2.swipe.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.cycle2.caption2.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="assets-2017/js/jquery.localscroll-1.2.7-min.js"></script>
 
-<script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="assets-2017/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="assets-2017/fancybox/helpers/jquery.fancybox-media.js"></script>
+<script type="text/javascript" src="assets-2017/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-<script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="assets/fancybox/helpers/jquery.fancybox-media.js"></script>
-<script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="assets-2017/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets-2017/js/bootstrap/collapse.js"></script>
+<script type="text/javascript" src="assets-2017/js/bootstrap/dropdown.js"></script>
+<script type="text/javascript" src="assets-2017/js/bootstrap/tab.js"></script>
+<script type="text/javascript" src="assets-2017/js/bootstrap/transition.js"></script>
+<script type="text/javascript" src="assets-2017/js/bootstrap/scrollspy.js"></script>
 
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap/collapse.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap/dropdown.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap/tab.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap/transition.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap/scrollspy.js"></script>
-
-<script type="text/javascript" src="assets/js/infine.js"></script>
+<script type="text/javascript" src="assets-2017/js/infine.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-81609481-1', 'auto');
+  ga('create', 'UA-64997141-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+    var _mfq = _mfq || [];
+    (function () {
+    var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/28a3ee9b-679a-42c2-8fae-3a181404c8f6.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
 </script>
 
 </body>
